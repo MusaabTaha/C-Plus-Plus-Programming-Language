@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cstdint>
+
+void take_num(std::uint32_t value);
+
+
+int main()
+{
+
+    take_num(42);
+
+    return 0;
+
+}
+
+void take_num(std::uint32_t value){
+
+    std::cout << value << "\n";
+
+}
