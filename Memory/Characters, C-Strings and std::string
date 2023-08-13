@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cstdint>
+#include <string>
+
+int main()
+{
+
+    //C style strings
+    char string[] = "Hello world";
+    std::cout << string << "\n";
+
+    //C++ style strings
+    auto string1 = std::string{"Hello world again\n"};
+    std::cout << string1.size() << "\n";
+    std::cout << string1.length() << "\n";
+    std::cout << string1 << "\n";
+
+    return 0;
+
+}
