@@ -7,7 +7,7 @@ typedef std::vector<std::int8_t> ByteArray;
 
 //C++-style alias
 template <typename T>
-using genericType = std::vector<T>;
+using vectorGenericType = std::vector<T>;
 
 
 int main()
