@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdint>
 
-#include "weapons1.h"
+#include "fun.h"
 
 int main()
 {
