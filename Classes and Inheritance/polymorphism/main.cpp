@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-#include "Agent1.h"
+#include "Agent.h"
 
 void printAllAgents(const std::vector<agent *> &agents){
 
