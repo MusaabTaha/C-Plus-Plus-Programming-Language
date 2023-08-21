@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "matrix1.h"
+#include "matrix.h"
 
 int main()
 {
